@@ -14,13 +14,15 @@ Abstract: Pedestrian trajectory prediction estimates future pedestrian positions
 - Python 3.8
 - Tensorflow 2.4.0 (GPU)
 
-## Models
-The pre-trained models (ETH, HOTEL, UNIV, ZARA1, ZARA2) are saved in this repository, and all models can be acquired on <br />
-[Models](https://drive.google.com/drive/folders/1I7eSd37ArGJt46ZfUSzXT0ciDvgW9m-K?usp=sharing) &nbsp; &nbsp; &nbsp;
+## Datasets \& Models
+We provide two already preprocessed datasets (ETH/UCY, SDD) on <br/>
+[Datasets](https://pan.baidu.com/s/1wgWoiZSnAytiFjwChnAxeA) &nbsp; &nbsp; &nbsp; Password: &nbsp; &nbsp; abcd &nbsp; &nbsp; &nbsp; <br/>
 
+The pre-trained models (ETH, HOTEL, UNIV, ZARA1, ZARA2) are saved in this repository, and all models can be acquired on <br />
+[Models](https://pan.baidu.com/s/1ehXfKvNnarAJyNnjaeGTIA) &nbsp; &nbsp; &nbsp; Password: &nbsp; &nbsp; 1234 &nbsp; &nbsp; &nbsp;
+<br/>
 
 ## Usage
-
 To (1) train the decoupled pedestrian trajectory prediction network model to obtain PTE and (2) validate the effectiveness of PTE for faster trajectory prediction on a specific dataset with a prediction network,  simply run the following command: 
 
 ```bash
